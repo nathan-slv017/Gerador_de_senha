@@ -13,18 +13,34 @@
     <div class="pw-container">
         <div class="pw-header">
             <div class="pw">
-                <span id="pw">124245s23#Css099$</span>
-                <button id="copy">Copiar</button>
+                <span id="pw">l823Zs78#Css09@</span>
+                <button id="copy">Copy</button>
             </div>
         </div>
         <div class="pw-body">
             <div class="form-control">
-                <label for="lem">Digitos</label>
-                <input type="number" id="lem" value="15" min="2" max="30"/>
+                <label for="len">Password Length</label>
+                <input id="len" value="15" type="number" min="2" max="30" />
             </div>
             <div class="form-control">
-                <label for="lower"></label>
+                <label for="upper">Contain Uppercase Letters</label>
+                <input id="upper" type="checkbox" />
             </div>
+            <div class="form-control">
+                <label for="lower">Contain Lowercase Letters</label>
+                <input id="lower" type="checkbox" />
+            </div>
+            <div class="form-control">
+                <label for="number">Contain Numbers</label>
+                <input id="number" type="checkbox" />
+            </div>
+            <div class="form-control">
+                <label for="symbol">Contain Symbols</label>
+                <input id="symbol" type="checkbox" />
+            </div>
+            <button class="generate" id="generate">
+                Generate Password
+            </button>
         </div>
     </div>
 </body>
